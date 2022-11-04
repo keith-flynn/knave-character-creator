@@ -1,0 +1,21 @@
+ROLL,PHYSIQUE,FACE,SKIN,HAIR,CLOTHING,VIRTUE,VICE,SPEECH,BACKGROUND,MISFORTUNES,ALIGNMENT
+1,Athletic,Bloated,Battle Scar,Bald,Antique,Ambitious,Aggressive,Blunt,Alchemist,Abandoned,Law
+2,Brawny,Blunt,Birthmark,Braided,Bloody,Cautious,Arrogant,Booming,Beggar,Addicted,Law
+3,Corpulent,Bony,Burn Scar,Bristly,Ceremonial,Courageous,Bitter,Breathy,Butcher,Blackmailed,Law
+4,Delicate,Chiseled,Dark,Cropped,Decorated,Courteous,Cowardly,Cryptic,Burglar,Condemned,Law
+5,Gaunt,Delicate,Makeup,Curly,Eccentric,Curious,Cruel,Drawling,Charlatan,Cursed,Law
+6,Hulking,Elongated,Oily,Disheveled,Elegant,Disciplined,Deceitful,Droning,Cleric,Defrauded,Neutrality
+7,Lanky,Patrician,Pale,Dreadlocks,Fashionable,Focused,Flippant,Flowery,Cook,Demoted,Neutrality
+8,Ripped,Pinched,Perfect,Filthy,Filthy,Generous,Gluttonous,Formal,Cultist,Discredited,Neutrality
+9,Rugged,Hawkish,Pierced,Frizzy,Flamboyant,Gregarious,Greedy,Gravelly,Gambler,Disowned,Neutrality
+10,Scrawny,Broken,Pockmarked,Greased,Stained,Honest,Irascible,Hoarse,Herbalist,Exiled,Neutrality
+11,Short,Impish,Reeking,Limp,Foreign,Honorable,Lazy,Mumbling,Magician,Framed,Neutrality
+12,Sinewy,Narrow,Tattooed,Long,Frayed,Humble,Nervous,Precise,Mariner,Haunted,Neutrality
+13,Slender,Ratlike,Rosy,Luxurious,Frumpy,Idealistic,Prejudiced,Quaint,Mercenary,Kidnapped,Neutrality
+14,Flabby,Round,Rough,Mohawk,Livery,Just,Reckless,Rambling,Merchant,Mutilated,Neutrality
+15,Statuesque,Sunken,Sallow,Oily,Oversized,Loyal,Rude,Rapid-fire,Outlaw,Poor,Neutrality
+16,Stout,Sharp,Sunburned,Ponytail,Patched,Merciful,Suspicious,Dialect,Performer,Pursued,Chaos
+17,Tiny,Soft,Tanned,Silky,Perfumed,Righteous,Vain,Slow,Pickpocket,Rejected,Chaos
+18,Towering,Square,War Paint,Topknot,Rancid,Serene,Vengeful,Squeaky,Smuggler,Replaced,Chaos
+19,Willowy,Wide,Weathered,Wavy,Torn,Stoic,Wasteful,Stuttering,Student,Robbed,Chaos
+20,Wiry,Wolfish,Whip Scar,Wispy,Undersized,Tolerant,Whiny,Whispery,Tracker,Suspected,Chaos
