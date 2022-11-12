@@ -2,6 +2,7 @@ import pandas as pd
 import random
 
 traits = pd.read_csv('assets/knave-traits.csv')
+traits = traits.set_index('ROLL')
 print(traits)
 
 traits_list = ['PHYSIQUE', 'FACE', 'SKIN', 'HAIR', 
@@ -21,4 +22,4 @@ roll()
 print(roll_result)
 
 for (trait, ele) in zip(traits_list, roll_result):
-    print(trait, ':', traits.at[(ele - 1), trait])
+    print(trait, ':', traits.at[ele, trait])
