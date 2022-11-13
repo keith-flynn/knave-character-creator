@@ -1,6 +1,13 @@
 import pandas as pd
 import random
 
+# Dice roller
+def roll():
+    # There are 11 attribute columns
+    for i in range(11):
+        roll = random.randint(1, 20)
+        roll_result.append(roll)
+
 traits = pd.read_csv('assets/knave-traits.csv')
 traits = traits.set_index('ROLL')
 print(traits)
@@ -11,12 +18,6 @@ traits_list = ['PHYSIQUE', 'FACE', 'SKIN', 'HAIR',
                ]
 
 roll_result = []
-
-def roll():
-    # There are 11 attribute columns
-    for i in range(11):
-        roll = random.randint(1, 20)
-        roll_result.append(roll)
 
 roll()
 print(roll_result)
