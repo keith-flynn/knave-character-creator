@@ -1,6 +1,8 @@
 import pandas as pd
 import random
 
+import name_generator as ng
+
 class Knave:
 
     number_of_dice = 11
@@ -32,7 +34,7 @@ class Knave:
 # Import traits and set the index to dice rolls
 traits = pd.read_csv('assets/knave-traits.csv')
 traits = traits.set_index('ROLL')
-print(traits)
 
 Knave.roll_em()
+print('\nNAME: ', ng.fantasy_name(), '\n')
 Knave.fresh_meat()
