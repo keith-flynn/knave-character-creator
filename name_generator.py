@@ -1,6 +1,7 @@
 import random
 
 # Name generator source https://python-forum.io/thread-18779.html
+# Courtesy of Ichabod https://www.ichabod801.com/
  
 FIRST = ['A', 'Ag', 'Ar', 'Ara', 'Anu', 'Bal', 'Bil', 'Boro', 'Bern', 'Bra', 'Cas', 'Cere', 'Co', 'Con',
     'Cor', 'Dag', 'Doo', 'Elen', 'El', 'En', 'Eo', 'Faf', 'Fan', 'Fara', 'Fre', 'Fro', 'Ga', 'Gala', 'Has', 
@@ -16,5 +17,3 @@ SECOND = ['ba', 'bis', 'bo', 'bus', 'da', 'dal', 'dagz', 'den', 'di', 'dil', 'di
  
 def fantasy_name():
     return random.choice(FIRST) + random.choice(SECOND) + ' ' +  random.choice(FIRST) + random.choice(SECOND)
-
-print(fantasy_name())

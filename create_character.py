@@ -36,5 +36,5 @@ traits = pd.read_csv('assets/knave-traits.csv')
 traits = traits.set_index('ROLL')
 
 Knave.roll_em()
-print('\nNAME: ', ng.fantasy_name(), '\n')
+print('\nNAME:', ng.fantasy_name(), '\n')
 Knave.fresh_meat()
