@@ -16,6 +16,7 @@ class Knave:
     # Dice roller
     def roll_em():
         # There are 11 attribute columns
+        Knave.roll_result.clear()
         for die in range(Knave.number_of_dice):
             roll = random.randint(1, 20)
             Knave.roll_result.append(roll)
@@ -28,8 +29,14 @@ class Knave:
 
     # Roll for starting gear
     def starting_gear():
-        pass
+        Knave.roll_result.clear()
+        for die in range(6):
+            roll = random.randint(1, 20)
+            Knave.roll_result.append(roll)
+        print(Knave.roll_result)
 
+        for (item, ele) in zip(list(gear), Knave.roll_result):
+            print(item + ':', gear.at[ele, item])
 
     @classmethod
     # Change number of dice
@@ -46,3 +53,4 @@ gear = gear.set_index('ROLL')
 Knave.roll_em()
 print('\nNAME:', ng.fantasy_name(), '\n')
 Knave.fresh_meat()
+Knave.starting_gear()
