@@ -26,6 +26,11 @@ class Knave:
         for (trait, ele) in zip(list(traits), Knave.roll_result):
             print(trait + ':', traits.at[ele, trait])
 
+    # Roll for starting gear
+    def starting_gear():
+        pass
+
+
     @classmethod
     # Change number of dice
     def set_number_of_dice(cls, number):
@@ -34,6 +39,9 @@ class Knave:
 # Import traits and set the index to dice rolls
 traits = pd.read_csv('assets/knave-traits.csv')
 traits = traits.set_index('ROLL')
+# Import gear and set the index to dice rolls
+gear = pd.read_csv('assets/knave-gear.csv')
+gear = gear.set_index('ROLL')
 
 Knave.roll_em()
 print('\nNAME:', ng.fantasy_name(), '\n')
