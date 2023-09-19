@@ -44,3 +44,19 @@ const traits = {
              'Neutrality', 'Neutrality', 'Neutrality', 'Neutrality', 'Neutrality',
              'Chaos', 'Chaos', 'Chaos', 'Chaos', 'Chaos']
 }
+
+// Random number between 1-20
+function rollBones() {
+      return Math.floor(Math.random() * 20) + 1;
+    }
+    
+    for (const key in traits) {
+      const valuesArray = traits[key];
+      const diceRoll = rollBones() - 1;
+      const rolledTrait = valuesArray[diceRoll];
+      const roll = `${key} - ${rolledTrait}`;
+      const para = document.createElement("p");
+      const innerText = document.createTextNode(roll);
+      para.appendChild(innerText);
+      document.getElementById("main").appendChild(para);
+    }
