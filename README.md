@@ -17,7 +17,7 @@ A web app to quickly roll a new character for the tabletop role-playing game rul
 
 Simply [visit the github hosted page](https://keith-flynn.github.io/knave-character-creator/) or clone the repository for yourself to run locally. 
 
-### :red_circle: All following instructions are left in place for the original Python script version. :red_circle:
+### :red_circle: All of the following instructions are left in place for the original Python script version. :red_circle:
 
 ---
 
