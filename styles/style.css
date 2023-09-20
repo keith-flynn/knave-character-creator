@@ -1,4 +1,11 @@
-body,
-html {
-  height: 100vh;
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
