@@ -5,11 +5,19 @@
 
 ## Project Overview
 
-This is a script to quickly roll a new character for the tabletop role-playing game ruleset Knave.
+A web app to quickly roll a new character for the tabletop role-playing game ruleset Knave.
 
- - Random name generator (Courtesy of [Ichabod](https://www.ichabod801.com/))
  - Roll 11 d20s and assign the corresponding character traits
  - Roll 6 d20s for starting gear
+ - ~~Random name generator (Courtesy of [Ichabod](https://www.ichabod801.com/))~~ (Currently depricated in browser, follow directions below for Python version)
+
+---
+
+## :warning: Major Update: Web App Now Runs in Browser! :warning:
+
+Simply [visit the github hosted page](https://keith-flynn.github.io/knave-character-creator/) or clone the repository for yourself to run locally. 
+
+### :red_circle: All following instructions are left in place for the original Python script version. :red_circle:
 
 ---
 
