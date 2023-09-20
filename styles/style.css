@@ -13,6 +13,7 @@ body {
 }
 
 p {
+  text-align: center;
   font-size: 1em;
 }
 
@@ -34,8 +35,7 @@ button {
   
   p {
     font-size: 2em;
+    margin: 15px;
   }
   
 } 
-
-/* testing git configuration */
