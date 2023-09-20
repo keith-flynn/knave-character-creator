@@ -57,6 +57,7 @@ for (const key in traits) {
 	// Format for output
 	const roll = `${key} - ${traits[key][diceRoll]}`;
 	
+	// Append to main in DOM
 	const para = document.createElement("p");
 	para.innerText = roll;
 	document.getElementById("main").appendChild(para);
